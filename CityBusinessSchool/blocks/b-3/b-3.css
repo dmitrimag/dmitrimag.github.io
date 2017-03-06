@@ -1,0 +1,53 @@
+.b-3-wrapper {
+	position: relative;
+	padding: 40px 20px 0;
+	overflow: visible;
+	z-index: 101;
+}
+
+/*----------*/
+
+.b-3-title {
+	text-align: center;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+/*----------*/
+
+.b-3-list {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 38px;
+	overflow: visible;
+}
+
+/*----------*/
+
+.b-3-item {
+	position: relative;
+	padding-left: 27px;
+	width: 50%;
+	overflow: visible;
+}
+
+.b-3-item__title {
+	margin-bottom: 21px;
+	font-size: 28px;
+	line-height: 38px;
+	color: #5e93f6;
+}
+.b-3-item__text {
+	font-size: 18px;
+	line-height: 28px;
+}
+.b-3-item__paragraph {
+	margin-bottom: 20px;
+}
+
+.b-3-item__image {
+	position: relative;
+	display: block;
+	margin: 31px 0 -10px -9px;
+}

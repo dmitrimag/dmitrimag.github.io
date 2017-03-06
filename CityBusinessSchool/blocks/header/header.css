@@ -1,0 +1,38 @@
+.header {
+	border-bottom: 1px solid #e9e7e5;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 13px 20px 16px;
+}
+
+.header-contacts {
+	display: flex;
+	align-items: center;
+}
+
+.header-contacts__phone {
+	padding-bottom: 5px;
+}
+
+.header-contacts__phone-text {
+	font: 12px/1em "Trebuchet MS Regular";
+}
+.header-contacts__phone-number {
+	font-size: 20px;
+	line-height: 1em;
+	font-weight: bold;
+}
+
+.header-contacts__button {
+	margin-left: 27px;
+	padding: 9px 14px 11px;
+	border: 1px solid #2ea0e7;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #2ea0e7;
+	background: none;
+}

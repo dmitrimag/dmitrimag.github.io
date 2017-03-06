@@ -1,0 +1,41 @@
+.button-arrow {
+	position: relative;
+	height: 62px;
+	overflow: visible;
+}
+.button-arrow__item {
+	display: flex;
+	align-items: center;
+	margin-right: 31px;
+	height: 100%;
+	border-radius: 2px 0 0 2px;
+	background-color: #fea428;
+}
+.button-arrow__text {
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+.button-arrow__end {
+	position: absolute;
+	top: 9.2px;
+	right: 9.2px;
+	width: 43.8px;
+	height: 43.8px;
+	background-color: #fea428;
+	transform: rotate(45deg);
+}
+
+.button-arrow__item_short {
+	width: 307px;
+}
+.button-arrow__item_long {
+	width: 490px;
+}
+
+.button-arrow__text_short {
+	margin-left: 90px;
+}
+.button-arrow__text_long {
+	margin-left: 70px;
+}

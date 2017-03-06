@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Trebuchet MS Regular";
+	src: url(../fonts/trebuchet_ms_regular.ttf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+div[class$="-wrapper"] {
+	width: 1024px;
+	margin: 0 auto;
+}

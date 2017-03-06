@@ -1,0 +1,37 @@
+.block-footer {
+	background-color: #fff;
+}
+
+.block-footer-wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 20px;
+	height: 102px;
+	background-image: url(block-footer.png);
+	background-repeat: no-repeat;
+	background-position: 52% 0%;
+	overflow: visible;
+	z-index: 100;
+}
+.block-footer-wrapper_background_position {
+	background-position: 81% 0%;
+}
+
+.block-footer__number {
+	margin: -8px 0 0 36px;
+	font-size: 59px;
+	font-weight: 300;
+	color: #5e93f6;
+}
+.block-footer__word {
+	margin: -3px 0 0 4px;
+	font-size: 15px;
+}
+
+.block-footer__arrow {
+	position: absolute;
+	left: 75px;
+	top: -102px;
+}
